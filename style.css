@@ -125,7 +125,7 @@
     font-weight: 400;
     font-style: normal;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 20px;
 }
 .m_box{
     width: 300px;
@@ -141,6 +141,7 @@
 .sub_box_1{
     position: absolute;
     background-color: white;
+    border: 5px dotted black;
     width: 300px;
     height: 300px;
     left: 0px;
@@ -150,6 +151,7 @@
 .sub_box_2{
     position: absolute;
     background-color: white;
+    border: 5px dotted black;
     width: 300px;
     height: 300px;
     left: 0px;
@@ -161,16 +163,18 @@
     background-color: white;
     bottom: 0px;
     margin-left:50%;
-    transform: translate(-50%, 0%)
+    transform: translate(-50%, 0%);
 }
 .m_sub_box3{
     position: absolute;
     background-color: white;
     bottom: 0px;
     right: 0px;
+    padding-left: 20px;
 }
 .sub_box_3{
     background-color: white;
+    border: 5px dotted black;
     width: 300px;
     height: 300px;
     position: absolute;
@@ -180,6 +184,7 @@
 .sub_box_4{
     position: absolute;
     background-color: white;
+    border: 5px dotted black;
     width: 300px;
     height: 300px;
     left: 0px;
@@ -188,8 +193,15 @@
 .sub_box_5{
     position: absolute;
     background-color: white;
+    border: 5px dotted black;
     width: 300px;
     height: 300px;
     left: 0px;
     bottom: 0px;
+}
+
+.picture{
+    position:absolute;
+    width:300px;
+    height:300px;
 }
